@@ -1,3 +1,83 @@
 body{
-    background-color: rgb(232, 124, 124);
+    background-color: rgb(255, 255, 255);
+    
+}
+
+#contenedor{
+    margin: auto;
+    width: 1000px;
+    height: 500px;
+    background: rgb(226, 224, 224);
+    border-width: 1px;
+    border-color: #aaaaaa;
+    border-style: solid;
+    margin-bottom: 400px;
+
+}
+
+#cuadrito{
+    width: 350px;
+    height: 250px;
+    background: rgb(226, 224, 224);
+    position: absolute;
+    right:  450px;
+    top: 320px;
+    margin-top: 100px;
+    border-color: #aaaaaa;
+    border-width: 2px;
+    border-style: solid;
+    border-radius:15px ; 
+    box-shadow: 10px 10px 8px rgb(22, 22, 22);
+}
+
+#encabezado{
+    width: 1000px; 
+    height: 60px;
+    background-color: black;
+    position: absolute;
+}
+
+p{
+    color: #fff;
+    font-size: 20px;
+    left: 15px;
+    position: absolute;
+}
+
+hr{
+    width: 300px;
+    margin-top: 40px;
+}
+
+ .educacion {
+    background-color: aqua;
+    height: 90px;
+    width: 90px;
+    display: block;
+    margin: 20px;
+    
+}
+
+.laboral {
+    background-color: aqua;
+    height: 90px;
+    width: 90px;
+    display: inline-block;
+    
+}
+
+.contacto{
+    background-color: aqua;
+    height: 90px;
+    width: 90px;
+    display: inline-block;
+    
+}
+
+.habilidades{
+    background-color: aqua;
+    height: 90px;
+    width: 90px;
+    display: inline-block;
+    
 }
