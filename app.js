@@ -22,7 +22,7 @@ app.get('/Educacion', (req, res) => {
   })
 
 app.get('/Laboral', (req, res) => {
-    res.send('nivel Laboral')
+    res.render('laboral')
   })  
 
   app.use((req, res, next) => {
